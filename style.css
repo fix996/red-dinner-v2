@@ -1,0 +1,55 @@
+body{
+background-color: rgb(83, 31, 31);
+
+}
+h1{
+color: azure;
+font-family: 'Times New Roman', Times, serif;
+position: absolute;
+
+left: 33%;
+top: -7%;
+font-size: 500%;
+}
+.frase {
+position: absolute;
+font-family: 'Times New Roman', Times, serif;
+left: 30%;
+top: 7%;
+color: azure;
+
+
+}
+.menu {
+position: absolute;
+top: 50%;
+left: 40%;
+font-size: 400%;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(99, 69, 32);
+
+}
+.pastas {
+position: absolute;
+top: 70%;
+left: 5%;
+font-size: 300%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: darkgrey;
+}
+.milanesas {
+position: absolute;
+top:70%;
+left:40%;
+font-size: 300%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: darkgray;
+}
+.bebidas{
+    position: absolute;
+top:70%;
+left:85%;
+font-size: 300%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: darkgray;
+}
