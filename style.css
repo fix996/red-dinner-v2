@@ -1,64 +1,71 @@
-body{
-background-color: rgb(83, 31, 31);
-font-size: 16px;
-
+/* Estilos base */
+body {
+  background-color: rgb(83, 31, 31);
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: azure;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-@media (max-width: 768px) {
-    html {
-      font-size: 14px;
-    }
-  }
-  
-h1{
-color: azure;
-font-family: 'Times New Roman', Times, serif;
-position: absolute;
 
-left: 33%;
-top: -4%;
-font-size: 4rem;
+/* Título principal */
+h1 {
+  font-size: 3rem;
+  margin: 10px 0;
 }
+
+/* Frase debajo del título */
 .frase {
-position: absolute;
-font-family: 'Times New Roman', Times, serif;
-left: 30%;
-top: 7%;
-color: azure;
-
-
+  font-size: 1.3rem;
+  margin-bottom: 40px;
 }
+
+/* Sección del menú */
 .menu {
-position: absolute;
-top: 50%;
-left: 40%;
-font-size: 3rem;
-font-family: 'Times New Roman', Times, serif;
-color: rgb(99, 69, 32);
-
-}
-.pastas {
-position: absolute;
-top: 70%;
-left: 5%;
-font-size: 2rem;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: darkgrey;
-}
-.milanesas {
-position: absolute;
-top:70%;
-left:40%;
-font-size: 2rem;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: darkgray;
-}
-.bebidas{
-    position: absolute;
-top:70%;
-left:80%;
-font-size: 2rem;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: darkgray;
+  font-size: 2rem;
+  color: rgb(99, 69, 32);
+  margin-bottom: 20px;
 }
 
+/* Sección de categorías de comida */
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
 
+.categoria {
+  font-size: 1.5rem;
+  color: darkgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .frase {
+    font-size: 1rem;
+  }
+
+  .menu {
+    font-size: 1.5rem;
+  }
+
+  .categoria {
+    font-size: 1.2rem;
+  }
+}
