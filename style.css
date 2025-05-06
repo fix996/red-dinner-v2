@@ -1,15 +1,22 @@
 body{
 background-color: rgb(83, 31, 31);
+font-size: 16px;
 
 }
+@media (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
 h1{
 color: azure;
 font-family: 'Times New Roman', Times, serif;
 position: absolute;
 
 left: 33%;
-top: -7%;
-font-size: 5rem;
+top: -4%;
+font-size: 4rem;
 }
 .frase {
 position: absolute;
@@ -24,7 +31,7 @@ color: azure;
 position: absolute;
 top: 50%;
 left: 40%;
-font-size: 5rem;
+font-size: 3rem;
 font-family: 'Times New Roman', Times, serif;
 color: rgb(99, 69, 32);
 
@@ -33,7 +40,7 @@ color: rgb(99, 69, 32);
 position: absolute;
 top: 70%;
 left: 5%;
-font-size: 4rem;
+font-size: 2rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: darkgrey;
 }
@@ -41,7 +48,7 @@ color: darkgrey;
 position: absolute;
 top:70%;
 left:40%;
-font-size: 4rem;
+font-size: 2rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: darkgray;
 }
@@ -49,8 +56,9 @@ color: darkgray;
     position: absolute;
 top:70%;
 left:80%;
-font-size: 4rem;
+font-size: 2rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: darkgray;
 }
+
 
