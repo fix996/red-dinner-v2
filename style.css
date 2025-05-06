@@ -9,7 +9,7 @@ position: absolute;
 
 left: 33%;
 top: -7%;
-font-size: 500%;
+font-size: 5rem;
 }
 .frase {
 position: absolute;
@@ -24,7 +24,7 @@ color: azure;
 position: absolute;
 top: 50%;
 left: 40%;
-font-size: 400%;
+font-size: 5rem;
 font-family: 'Times New Roman', Times, serif;
 color: rgb(99, 69, 32);
 
@@ -33,7 +33,7 @@ color: rgb(99, 69, 32);
 position: absolute;
 top: 70%;
 left: 5%;
-font-size: 300%;
+font-size: 4rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: darkgrey;
 }
@@ -41,15 +41,16 @@ color: darkgrey;
 position: absolute;
 top:70%;
 left:40%;
-font-size: 300%;
+font-size: 4rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: darkgray;
 }
 .bebidas{
     position: absolute;
 top:70%;
-left:85%;
-font-size: 300%;
+left:80%;
+font-size: 4rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: darkgray;
 }
+
